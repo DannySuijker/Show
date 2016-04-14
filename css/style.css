@@ -1,0 +1,174 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+body {
+	background: URL('../img/background.jpg')no-repeat fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	text-align: center;
+}
+
+h2 {
+	padding: 2%;
+	margin: 0 17%;
+	border-bottom: 2px solid #bbbbbb;
+	color: #111111;
+	font-size: 1em;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+h3 {
+	margin-top: 1%;
+}
+
+nav {
+	z-index: 10;
+	max-height: 40px;
+}
+.nav_links {
+    list-style-type: none;
+    margin: auto;
+    padding: auto;
+	margin-bottom: 1%;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+.li_links {
+    float: left;
+	border-right:1px solid #bbbbbb;
+}
+
+.a_links {
+    display: inline-block;
+    color: #ffffff;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.a_links:hover {
+    background-color: #111111;
+}
+
+.skillsImg {
+	max-width: 100px;
+	margin: 2% 2% 0;
+	width: 100%;
+	height: auto;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+.skillsImg:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+}
+
+.skillsText {
+	margin: 0 3% 0 3%;
+}
+
+.block-section {
+	width: 100%;
+	height: 100vh;
+	padding-top: 70px;
+}
+
+.about {
+	background-color: rgba(102, 102, 255, 0.8);
+	border-bottom: 1px solid #000000;
+}
+
+.skills {
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.projects {
+	background-color: rgba(102, 102, 255, 0.8);
+	border-bottom: 1px solid #000000;
+}
+
+.contact {
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+table {
+	display: inline-block;
+	text-align: left;
+}
+
+.slider {
+	display: inline-block;
+	position: relative;
+	max-width: 890px;
+}
+
+#left-button {
+	z-index: 9;
+	left: 5px;
+	margin-top: 23%;
+	max-width: 25px;
+	width: 100%;
+	height: auto;
+	position: absolute;
+}
+
+#right-button {
+	z-index: 9;
+	right: 5px;
+	margin-top: 23%;
+	max-width: 25px;
+	width: 100%;
+	height: auto;
+	position: absolute;
+}
+
+.projectsImg {
+	margin-top: 2%;
+	position: relative;
+	width: 100%;
+	height: auto;
+	border: 1px solid #bbbbbb;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+label {
+	display: block;
+}
+
+input {
+	font-size: 1em;
+	text-align: left;
+	margin-top: 1%;
+}
+
+textarea {
+	max-width: 201px;
+	max-height: 32px;
+	font-size: 1em;
+	text-align: left;	
+	margin: 1% 2% 0 0;
+	width: 100%;
+	heigh: auto;
+}
+
+p {
+	margin-top: 1%;
+}
+
+footer {
+	background-color: rgba(255, 255, 255, 0.8);
+	color: #0000ff;
+}
